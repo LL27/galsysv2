@@ -4,7 +4,7 @@ import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
 
 import '../assets/sass/main.scss';
-import Footer from './Footer';
+import FooterGalsys from './FooterGalsys';
 import SideBar from './Sidebar';
 
 class Layout extends Component {
@@ -46,7 +46,7 @@ class Layout extends Component {
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: 'Solid State' },
+                { name: 'description', content: 'Galsys Electronics' },
                 { name: 'keywords', content: 'site, web' },
               ]}
             >
@@ -58,7 +58,7 @@ class Layout extends Component {
               <div id="page-wrapper">
                 <SideBar fullMenu={fullMenu} />
                 {children}
-                <Footer />
+                <FooterGalsys />
               </div>
             </div>
           </>

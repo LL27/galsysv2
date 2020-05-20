@@ -54,3 +54,19 @@
 			margin-left: _size(element-margin);
 		}
 	}
+
+
+  // list-inline
+
+  ul.list-inline {
+   margin-left: 0;
+   padding-left: 0;
+   li {
+    list-style-type: none;
+    display: inline;
+      &:first-child {
+        margin-left: 0;
+        padding-left: 0;
+        }
+    }
+  }

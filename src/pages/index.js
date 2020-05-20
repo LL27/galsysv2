@@ -16,10 +16,12 @@ const IndexPage = () => (
     <section id="banner">
       <div className="inner">
         <div className="logo">
-          <span className="icon fa-diamond"></span>
+          <span className="icon">GSE</span>
         </div>
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
+        <ul className="list-inline"><li><span className="icon fa-diamond"></span> Sales and After-Sale</li><li><span className="icon fa-diamond"></span> Retrofitting</li><li> <span className="icon fa-diamond"></span> Consulting</li></ul>
+        <a href="#contact" className="button primary">CONTACT</a>
       </div>
     </section>
 
