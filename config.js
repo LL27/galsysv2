@@ -7,7 +7,7 @@ module.exports = {
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/galsys-electronics/`, // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: `/en/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Galsys Electronics',
   subHeading: 'Novel Tech Solutions Since 1983',
   // social
