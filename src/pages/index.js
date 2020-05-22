@@ -2,6 +2,8 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import ServicesSection from '../components/ServicesSection';
+import PartnersSection from '../components/PartnersSection';
+
 import SectionTitle from '../components/SectionTitle';
 import SectionText from '../components/SectionText';
 
@@ -10,9 +12,7 @@ import mapping from '../assets/images/mapping.png';
 import avionics from '../assets/images/avionics.png';
 import microscopy from '../assets/images/microscopy.png';
 import qualityControl from '../assets/images/quality-control.png';
-import pic5 from '../assets/images/pic05.jpg';
-import pic6 from '../assets/images/pic06.jpg';
-import pic7 from '../assets/images/pic07.jpg';
+
 
 import config from '../../config';
 const IndexPage = () => (
@@ -47,7 +47,7 @@ const IndexPage = () => (
         </div>
       </section>
 
-     <section id="avionics" className="wrapper spotlight style1">
+     <section id="avionics" className="wrapper spotlight style2">
         <div className="inner">
           <span  className="image">
             <img src={avionics} alt="avionics" />
@@ -77,7 +77,7 @@ const IndexPage = () => (
         </div>
       </section>
 
-           <section id="microscopy" className="wrapper spotlight style1">
+           <section id="microscopy" className="wrapper spotlight style2">
         <div className="inner">
           <span  className="image">
             <img src={qualityControl} alt="qualityControl" />
@@ -85,14 +85,23 @@ const IndexPage = () => (
           <div className="content">
            <SectionTitle title="qualityControl" />
            <SectionText text="qualityControl" />
-
             <p>Gauging, CMMs/XYZ   •  Multisensor Systems  •  Motion Controllers and Retrofits • DMIS Inspection Software • 2D Optical Systems</p>
 
           </div>
         </div>
       </section>
 
+ <section id="partners" className="wrapper style2">
+        <div className="inner">
+
+
+            <PartnersSection/>
+
+        </div>
+      </section>
+
     </section>
+
   </Layout>
 );
 

@@ -1,0 +1,30 @@
+.partners-wrapper {
+  background-color: white;
+    border: rgba(255,255,255,0.3) solid 1px;
+  border-radius: 5px;
+    padding:24px;
+
+}
+.major.black {
+  color: black;
+  border-bottom: solid 2px black !important;
+  text-align: center;
+
+}
+.partners-section {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+
+  .company-logo {
+    width: 64px;
+    margin: 16px;
+   img {
+    width: 64px;
+
+
+   }
+  }
+}
