@@ -5,7 +5,12 @@
 ///
 
 /* Icons */
+  .icons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 
+  }
 	ul.icons {
 		cursor: default;
 		list-style: none;

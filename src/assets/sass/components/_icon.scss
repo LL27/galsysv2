@@ -15,3 +15,34 @@
 			display: none;
 		}
 	}
+
+  .large-icon {
+  //display: inline-block;
+  //margin-top: 20px;
+  //float: left;
+  width: 100px;
+
+  //color: #333;
+
+}
+
+.large-icon > svg  > path{
+  stroke: white;
+  fill: white;
+}
+.large-icon > svg {
+  width:inherit;
+  //display: block;
+  margin: 0 auto;
+  padding-left: 10px;
+
+
+
+}
+p.tagline {
+  margin-top: 15px;
+  margin-left: 0;
+  color: white;
+  font-size: 10px
+
+}

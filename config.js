@@ -6,10 +6,10 @@ module.exports = {
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.png',
+  manifestIcon: 'src/assets/img/galsys-logo.png',
   pathPrefix: `/en/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Galsys Electronics',
-  subHeading: 'Novel Tech Solutions Since 1983',
+  heading: 'Novel Tech Solutions Since 1983',
+  subHeading: '',
   // social
   socialLinks: [
     {
@@ -33,6 +33,7 @@ module.exports = {
       url: 'mailto:anubhav.srivastava00@gmail.com',
     },
   ],
+
   phone: '000-00000',
   address: '305 Del Sol, Sunnyvale, CA',
 };
