@@ -34,6 +34,10 @@ module.exports = {
     },
   ],
 
-  phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
+  phone: '+972-52-245-1045',
+  fax: '+972-9-771-3960',
+  address: '39/5 Bilu St, Raanana, Israel 43581',
+  email: 'galsys@bezeqint.net'
 };
+
+
