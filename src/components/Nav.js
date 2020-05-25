@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import scrollTo from 'gatsby-plugin-smoothscroll';
+
 
 export default function Nav({ onMenuToggle = () => {} }) {
   return (
@@ -28,14 +30,17 @@ export default function Nav({ onMenuToggle = () => {} }) {
             </Link>
           </li>
           <li>
-            <Link
+            <a
               onClick={e => {
+                e.preventDefault();
                 onMenuToggle();
+                scrollTo('#contact')
+
               }}
-              to="#contact"
+              href="#contact"
             >
               Contact
-            </Link>
+            </a>
           </li>
         </ul>
         <a
