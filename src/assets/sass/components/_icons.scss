@@ -10,10 +10,10 @@
     flex-wrap: wrap;
     justify-content: center;
     .icon {
-      font-size: 3em;
+      font-size: 3.2em;
           margin: 0 auto;
     display: block;
-    width: 50px;
+    width: 56px;
     padding-bottom: 6px;
     }
 
@@ -28,7 +28,7 @@
 			padding: 0 1em 0 0;
 
 			&:last-child {
-				padding-right: 0;
+				padding-right: 1em;
 			}
 
 			.icon {
