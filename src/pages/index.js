@@ -16,9 +16,12 @@ import qualityControl from '../assets/images/quality-control.png';
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
-    <GalsysBanner />
 
     <section id="wrapper">
+
+    <GalsysBanner />
+
+
       <section id="mapping" className="wrapper spotlight style1">
         <div className="inner">
           <span className="image">
@@ -57,7 +60,7 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section id="microscopy" className="wrapper spotlight style1">
+      <section id="microscopy" className="wrapper spotlight style3">
         <div className="inner">
           <span className="image">
             <img src={microscopy} alt="microscopy" />
@@ -75,7 +78,7 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section id="microscopy" className="wrapper spotlight style2">
+      <section id="microscopy" className="wrapper spotlight style1">
         <div className="inner">
           <span className="image">
             <img src={qualityControl} alt="qualityControl" />

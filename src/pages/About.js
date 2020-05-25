@@ -1,4 +1,5 @@
 import React from 'react';
+import galsysLogo from '../assets/images/galsys-logo-2.png';
 
 import Layout from '../components/Layout';
 

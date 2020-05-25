@@ -1,14 +1,25 @@
 import React from 'react';
-import LargeIcon from "../components/LargeIcon";
 
 
 const ServicesSection = () => {
   return (
-    <div className="icons-container">
-    <LargeIcon icon="sales" tagline="sales" className="large-icon"/>
-    <LargeIcon icon="after_sales" tagline="after_sales" className="large-icon"/>
-<LargeIcon icon="retrofitting" tagline="retrofitting" className="large-icon"/>
- <LargeIcon icon="consulting" tagline="consulting" className="large-icon"/>
+
+    <div className="services-section">
+      <ul className="icons icons-container"><li> <span className="icon fa fa-bullseye"></span><p>Sales</p></li>
+        <li>     <span className="icon fa fa-certificate"></span><p> After-Sales</p>
+</li>
+
+      <li>      <span className="icon fa fa-wrench"></span><p>Retrofit</p>
+</li>
+<li>      <span className="icon fa fa-compass"></span><p>Consulting</p>
+ </li>
+
+      </ul>
+
+
+        <div className="call-to-action">        <a href="#contact" className="button primary fit">CONTACT</a>
+</div>
+
 
     </div>
   )

@@ -17,7 +17,7 @@ const LargeIcon = (props) => (
             <svg width="48" height="48" viewBox="0 0 1024 1024">
                 <path d={large_icons[props.icon]}></path>
             </svg>
-            <p className="tagline">{taglines[props.tagline]}</p>
+            <p className="">{taglines[props.tagline]}</p>
         </div>
 
 
