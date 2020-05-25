@@ -17,11 +17,17 @@
   .logo {
     @include vendor('transition', ('opacity 2s ease', 'transform 1s ease'));
     @include vendor('transform', 'translateY(0)');
-    opacity: 1;
+    opacity: .7;
     margin: 0 0 (_size(element-margin) * 0.65) 0;
+    padding: 12px;
+    background: white;
+            width: 200px;
 
       img {
-        width: 400px;
+            width: 175px;
+            opacity: .7;
+    border-radius: 3px;
+
       }
 
 

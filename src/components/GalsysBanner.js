@@ -2,7 +2,7 @@ import React from 'react';
 import config from '../../config';
 import ServicesSection from '../components/ServicesSection';
 
-import galsysLogo from '../assets/images/galsys-logo-2.png';
+import galsysLogo from '../assets/images/galsys-logo-bw.png';
 
 
 export default function GalsysBanner() {
