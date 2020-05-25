@@ -19,9 +19,7 @@
     @include vendor('transform', 'translateY(0)');
     opacity: .7;
     margin: 0 0 (_size(element-margin) * 0.65) 0;
-    padding: 12px;
-    background: white;
-            width: 200px;
+
 
       img {
             width: 175px;
