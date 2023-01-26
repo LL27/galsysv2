@@ -6,8 +6,14 @@ module.exports = {
     title: config.siteTitle,
   },
   plugins: [
+        {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/`,
+      },
+    },
     `gatsby-plugin-smoothscroll`,
-
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,

@@ -1,14 +1,14 @@
 import React from 'react';
-import galsysLogo from '../assets/images/galsys-logo-2.png';
+import { graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
 
-const IndexPage = () => (
+const IndexPage = ({ data }) => (
   <Layout fullMenu>
 <section id="wrapper">
     <header>
       <div className="inner">
-        <h2>About Galsys Electronics</h2>
+        <h2>About {data.site.siteMetadata.title} </h2>
       </div>
     </header>
 
@@ -33,3 +33,12 @@ const IndexPage = () => (
 );
 
 export default IndexPage;
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`
