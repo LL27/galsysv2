@@ -1,6 +1,10 @@
 {
   "name": "galsysv2",
   "version": "0.0.1",
+  "engines": {
+    "node": "18.x",
+    "yarn": "1.x"
+  },
   "description": "Galsys Electronics Website",
   "author": {
     "name": "Lital Levin",
